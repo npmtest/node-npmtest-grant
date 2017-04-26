@@ -1,6 +1,6 @@
 # npmtest-grant
 
-#### test coverage for  [grant (v3.7.1)](https://github.com/simov/grant)  [![npm package](https://img.shields.io/npm/v/npmtest-grant.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-grant) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-grant.svg)](https://travis-ci.org/npmtest/node-npmtest-grant)
+#### basic test coverage for  [grant (v3.7.2)](https://github.com/simov/grant)  [![npm package](https://img.shields.io/npm/v/npmtest-grant.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-grant) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-grant.svg)](https://travis-ci.org/npmtest/node-npmtest-grant)
 
 #### OAuth Middleware for Express, Koa and Hapi
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-grant/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-grant/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-grant/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-grant/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-grant/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-grant/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-grant/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-grant/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-grant/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-grant/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-grant/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-grant/build/coverage.html/index.html)
 
@@ -37,14 +37,14 @@
 {
     "author": {
         "name": "Simeon Velichkov",
-        "url": "http://simov.github.io"
+        "url": "https://simov.github.io"
     },
     "bugs": {
         "url": "https://github.com/simov/grant/issues"
     },
     "dependencies": {
         "deep-copy": "^1.1.2",
-        "qs": "6.2.1",
+        "qs": "6.4.0",
         "request": "2.74.0"
     },
     "description": "OAuth Middleware for Express, Koa and Hapi",
@@ -71,8 +71,8 @@
     },
     "directories": {},
     "dist": {
-        "shasum": "d59f29a59fd22e8f5435232d92f47c048761d5f9",
-        "tarball": "https://registry.npmjs.org/grant/-/grant-3.7.1.tgz"
+        "shasum": "f8dd4f922cbedf883840e13df162a83b1dfd0f32",
+        "tarball": "https://registry.npmjs.org/grant/-/grant-3.7.2.tgz"
     },
     "engines": {
         "node": ">=4.0.0"
@@ -85,7 +85,7 @@
         "README.md",
         "index.js"
     ],
-    "gitHead": "057e9224308191b91c9e4b6fdf5896284c85d355",
+    "gitHead": "a02b1d31036bb501ee4110c79a7b3af354778d4a",
     "homepage": "https://github.com/simov/grant",
     "keywords": [
         "oauth",
@@ -115,7 +115,8 @@
         "test-ci": "mocha --recursive test/",
         "test-cov": "istanbul cover _mocha -- --recursive test/"
     },
-    "version": "3.7.1"
+    "version": "3.7.2",
+    "bin": {}
 }
 ```
 
